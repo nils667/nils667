@@ -1,16 +1,42 @@
-## Hi there 👋
+# Les Basiques de markdown
 
-<!--
-**nils667/nils667** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## titre 2
 
-Here are some ideas to get you started:
+### titre 3
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ceci est un passage **gras** et en *italique*
+
+### faire des listes
+
+- item 1
+- item 2
+    - item 2.1
+    - item 2.2
+  
+### todo 
+
+- [x] Action 1
+- [] Action 2
+- [] Action 3
+
+### code
+
+```c
+int main(){
+    return 0;
+```
+
+je vais faire une struct player, comme ca:
+
+```c
+struc p{
+    int x, y;
+```
+
+### Images
+
+![banane](http://www.u-run.fr/wp-content/uploads/2015/02/banane.jpg)
+
+### equation
+
+$$ x^n + y^n = z^n $$
